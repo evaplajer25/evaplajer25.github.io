@@ -1,17 +1,17 @@
 # Eva Plajer — academic website
 
-A static academic website for https://evaplajer.com, published with GitHub Pages.
+A simple static website at https://evaplajer.com, published with GitHub Pages.
 
-## Edit
+## Editing
 
-- `index.html`: biography, interests, and featured research.
-- `research.html`: BPhil thesis abstract and research details.
+- `index.html`: short biography, thesis details, and contact address.
+- `research.html`: research interests and thesis abstract.
 - `cv.html`: education, experience, awards, and languages.
-- `styles.css`: responsive layout and print styles.
-- `script.js`: mobile navigation, email copying, and CV print action.
+- `styles.css`: shared layout and print styles.
+- `script.js`: CV print button.
 
-No build step or package installation is required. Preview with `python3 -m http.server 4173` and open http://localhost:4173.
+No build step, package installation, or external fonts are needed. To preview locally, run `python3 -m http.server 4173`, then open http://localhost:4173.
 
-The website uses DM Sans and Libre Caslon Display via Google Fonts, with system-font fallbacks. It has no analytics, tracking scripts, forms, or server-side data collection. The original transcripts, admission letter, degree confirmation, and reference contact details are not included.
+The original PDFs and private document details are not included. The thesis is available on request.
 
-Keep the `CNAME` file set to `evaplajer.com` and retain `.nojekyll` when updating the site.
+Keep `CNAME` set to `evaplajer.com` and retain `.nojekyll` when updating the site.
