@@ -3,6 +3,8 @@
 body { max-width: 740px; margin: 56px auto 72px; padding: 0 26px; color: #262626; background: #fff; font: 17px/1.65 Georgia, 'Times New Roman', serif; }
 a { color: #315c80; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: #183c5b; }
+.supervisors a { text-decoration: none; }
+.supervisors a:hover, .supervisors a:focus-visible { text-decoration: underline; }
 a:focus-visible, button:focus-visible { outline: 2px solid #315c80; outline-offset: 5px; }
 h1, h2, h3, .site-name, .site-nav, button { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 h1 { margin: 0 0 7px; font-size: 32px; line-height: 1.25; font-weight: 600; letter-spacing: -.02em; }
