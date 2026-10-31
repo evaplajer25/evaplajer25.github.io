@@ -37,7 +37,6 @@ li { margin-bottom: 8px; }
 .degree-with-photo { display: grid; grid-template-columns: minmax(0, 1fr) 160px; align-items: start; gap: 26px; }
 .graduation-photo { margin: 0; }
 .graduation-frame img { object-position: 52% 25%; transform: scale(1.5); transform-origin: 52% 25%; }
-.graduation-photo figcaption { margin-top: 6px; color: #606060; font-size: 13px; }
 @media (max-width: 620px) {
   .introduction, .degree-with-photo { grid-template-columns: 1fr; gap: 20px; }
   .portrait-frame { width: 170px; }
